@@ -125,7 +125,7 @@ const OyunDurdurHusnuEhedov = (ctx, chatId) => {
 		}
 		chat.isPlaying = false
 		let top = []
-		NesneYenileThagiyevvvvv(chat.members, (memberId, member, memberIndex) => {
+		NesneYenileThagiyevvvv(chat.members, (memberId, member, memberIndex) => {
 			if (member.isPlaying) {
 				top.push({
 					firstName: member.firstName,
